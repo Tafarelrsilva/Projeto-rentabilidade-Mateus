@@ -1,0 +1,151 @@
+
+header {
+	padding: 20px 0;
+	background: #DC143C;
+	
+}
+main {
+	background: linear-gradient(#DC143C , #C71585);
+}
+.cabeçalho {
+	width: 940px;
+	margin: 0 auto;
+	font-size: 29px;
+	font-weight: bold;
+	font-style: italic
+}
+.dadosRendimento {
+	width: 940px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction:column;
+}
+.informacoes {	
+	margin:5px auto 0;
+	width: 100%;
+	display:flex;
+	align-items: flex-end;
+	justify-content: center;
+	align-self: flex-end;
+
+}
+.blocoPadrao {
+	width: 193px;
+	margin: 0 10px;
+	font-size: 17px;
+	text-align: center;
+	font-weight: bold;
+}
+.label-padrao {
+	margin:0 auto;
+
+}
+.input-padrao {
+	padding: 10px 10px;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 0 #000000;
+}
+.buttom {
+	text-align: center;
+	font-size: 18px;
+	justify-content: space-between;
+	display: block;
+	width:65%;
+	padding: 15px 0px;
+	margin:40px auto 10px;
+	border: 2px solid #000000;
+	border-radius: 8px;
+	background: orange;
+	box-shadow: 5px 5px 5px 0 gold;
+}
+.anosRent {
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	display: flex;
+}
+.anosRent h2 {
+	margin:5px 0;
+}
+.ValorAcul {
+	margin:0 10px 10px;
+	text-align: center;
+}
+.ValorSemRen {
+	margin:0 25px 10px;
+	text-align: center;
+}
+.PorcentagemAnual {
+	margin:0 10px 10px;
+	text-align: center;
+}
+.PorcentagemTotal {
+	margin:0 25px 10px;
+	text-align: center;
+}
+.titulosEntrada{
+	width: 940px;
+	margin:0 auto;
+}
+.tituloEntrada {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin:20px 0 20px;
+}
+.tituloEntrada:after {
+	content: "";
+    display: block;
+    width: 480px;
+    height: 4px;
+    background: orange;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.anosjs {
+	width: 50%;
+}
+.anosRent {
+	margin-top: 20px;
+}
+.renAnosjs {
+	width: 50%
+}
+.titulosFinais{
+	margin:20px auto 0;
+	width: 940px;
+}
+.titulosFinais:after {
+	content: "";
+    display: block;
+    width: 480px;
+    height: 4px;
+    background: orange;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+.erros {
+	display: flex;
+	width: 940px;
+	justify-content: center;
+}
+.erro{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: orange;
+	margin: 15px 10px;
+	width: 193px
+}
+footer {
+	padding-top:80px;
+	background: #C71585
+}

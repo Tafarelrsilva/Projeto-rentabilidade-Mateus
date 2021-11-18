@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculadora De Trabalhos</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1 class="cabeçalho">Dinheiro Trabalhador</h1>
+			<!--<ul>
+				<li>Calculadora De Trabalhos<a></a></li>
+				<li>Conhecendo os trabalhos<a></a></li>
+			</ul>-->
+		</header>
+		<main>
+			<form class="dadosRendimento">
+				<fieldset class="informacoes">
+
+					<div class="blocoPadrao">
+						<label for="nomeSobrenome" class="label-padrao">Digite seu nome e o sobrenome</label>
+						<input type="text" id="nomeSobrenome" class="input-padrao" required placeholder="Jose Martins">
+					</div>
+
+					<div class="blocoPadrao">
+					  <label for="aporte" class="label-padrao">Digite o valor do seu aporte mensal (R$)</label>
+					  <input type="number" step="any" id="aporte" class="input-padrao" required placeholder="500,00">
+					</div>
+
+					<div class="blocoPadrao">
+						<label for="anosInvestindo" class="label-padrao">Digite a quantidade de anos em que irá investir</label>
+						<input type="number" id="anosInvestindo" class="input-padrao" required placeholder="20">
+					</div>
+
+					<div class="blocoPadrao">
+						<label for="rentabilidade" class="label-padrao">Digite o valor da sua rentabilidade anual (%)</label>
+						<input type="number" id="rentabilidade" class="input-padrao" required placeholder="8">
+					</div>
+
+				</fieldset>
+				<ul class="erros"></ul>
+
+				<fieldset class="enviarInfo">
+					<input type="submit" value="Enviar Informações" class="buttom">
+				</fieldset>
+			</form>
+			<!--(javascript)-->
+			
+			<div class="titulosEntrada"></div>
+
+			<div class="anosRent">
+				<div class="anosjs"></div>
+				<div class="renAnosjs"></div>	
+			</div>
+			<div class="titulosFinais"></div>
+
+			<!--(fim javascript)-->
+			<script src="calculoRent.js"></script>
+		</main>
+		<footer>
+		</footer>
+	</body>
